@@ -51,11 +51,11 @@ class ContiguousSubArrays {
             }else if (rcv > arr[ri+1]){
                 rcsl = 1;
             }
-            System.out.println(String.format("li %d lcv %d lcsl %d lhi %d lhv %d lhsl %d",
-                    li,lcv,lcsl,lhi,lhv,lhsl));
+            System.out.printf("li %d lcv %d lcsl %d lhi %d lhv %d lhsl %d%n",
+                    li,lcv,lcsl,lhi,lhv,lhsl);
 
-            System.out.println(String.format("ri %d rcv %d rcsl %d rhi %d rhv %d rhsl %d",
-                    ri,rcv,rcsl,rhi,rhv,rhsl));
+            System.out.printf("ri %d rcv %d rcsl %d rhi %d rhv %d rhsl %d%n",
+                    ri,rcv,rcsl,rhi,rhv,rhsl);
             lop[li] = lcsl;
             rop[ri] = rcsl;
 
